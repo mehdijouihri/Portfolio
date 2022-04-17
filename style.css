@@ -298,6 +298,54 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
     gap:10%;
 }
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex :1 1 30rem;
+    padding :4rem;
+    padding-bottom: 0;
+}
+.contact .row form{
+    flex :1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+.contact .row form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background: #333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.contact .row  form .message{
+    height: 15rem;
+    resize:none
+}
+.contact .row .content .title{
+    color:#fff;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 2;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i{
+    padding-right: 2rem;
+    color: var(--yellow);
+}
+
 
 /*--------- media queries --------*/
 
@@ -343,3 +391,28 @@ margin:0 3rem;
 }
 
 
+.swiper {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+    background-position: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .swiper-button-prev:hover {
+    color: #69f0ae;
+    transition: all linear 0.3s;
+  }
+  
+  .swiper-button-next:hover {
+    color: #69f0ae;
+    transition: all linear 0.3s;
+  }
+  

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>portfolio</title>
     <link rel="stylesheet"  href="style.css">
@@ -149,32 +150,44 @@
 
     </section>
 
-    <section class="portfoglio" id="portfolio">
-    <h1 class="heading"><span> mon </span> portfolio </h1>
-        <div class="box-container">
-
-            <div class="box">
-                <img src="img/html.png" alt="html">
-            </div>
-
-            <div class="box">
-                <img src="img/css.png" alt="css">
-            </div>
-
-            <div class="box">
-                <img src="img/javascript.jpg" alt="javascript">
-            </div>
-
-            <div class="box">
-                <img src="img/swift.jpg" alt="SwiftUI">
-            </div>
-
-            <div class="box">
-                <img src="img/basic.jpg" alt="basic">
-            </div>
+<section class="portfoglio" id="portfolio">
+  <h1 class="heading"><span> mon </span> portfolio</h1>
+  <div class="box-container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide"
+          style=" background-image: url(https://source.unsplash.com/random?sig=2);">
+          <h2>hello</h2>
         </div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(https://source.unsplash.com/random?)">
+          <h2>hello</h2>
+        </div>
+        <div
+          class="swiper-slide"
+          style="
+            background-image: url(https://source.unsplash.com/random?sig=3);">
+          <h2>hello</h2>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-    </section>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
+</section>
+    
 
     <section class="contact" id="contact">
     <h1 class="heading"><span> contactez </span> moi </h1>
@@ -182,11 +195,12 @@
         <div class="content">
             <h3 class="title"> contact info</h3>
             <div class="info">
-                <h3><i class="fas fa-envelope">mehdi_jouihri@hotmail.com</i></h3>
+                <h3><i class="fas fa-envelope">  mehdi_jouihri@hotmail.com</i></h3>
                 <h3><i class="fas fa-phone"> +33 76 61 75 646</i></h3>
-                <h3><i class="fas fa-map-marker-alt">rue des secouristes, 59000, lille  </i></h3>
-                <h3><i class="fas fa-linkedin">mehdi_jouihri@hotmail.com</i></h3>
-                <h3><i class="fas fa-GitHub">mehdi_jouihri@hotmail.com</i></h3>
+                <h3><i class="fas fa-map-marker-alt">  Rue des secouristes, 59000, lille  </i></h3>
+                <h3><i class="fas fa-linkedin">    ww.linkedin.com/in/el-mehdi-jouihri-5a772a222
+                </i></h3>
+                <h3><i class="fa fa-github" >  https://github.com/mehdijouihri</i></h3>
             </div>
         </div>
         <form action="">
@@ -194,13 +208,13 @@
             <input type="email" placeholder="email"  class="box"> 
             <input type="text" placeholder="project"  class="box"> 
             <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-            <input  type="text" name="" id="">
-            `<button type="submit"> envoyez <i class="fas fa-paper-plane"></i></button>
+            `<button type="submit" class="btn"> envoyez <i class="fas fa-paper-plane"></i></button>
         </form>
     </div>
 
     </section>
 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>

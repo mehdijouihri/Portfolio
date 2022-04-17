@@ -324,6 +324,9 @@ header .navbar ul li a:hover{
     font-size: 1.7rem;
     width: 100%;
 }
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
 .contact .row  form .message{
     height: 15rem;
     resize:none
@@ -336,14 +339,14 @@ header .navbar ul li a:hover{
 .contact .row .content .info h3{
     display: flex;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#eee;
-    padding:1rem 2;
-    font-weight: normal;
+    padding:1rem 0;
 }
 .contact .row .content .info h3 i{
     padding-right: 2rem;
     color: var(--yellow);
+    
 }
 
 

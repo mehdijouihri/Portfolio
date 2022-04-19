@@ -289,9 +289,10 @@ header .navbar ul li a:hover{
     cursor: pointer;
     
 }
+
 .portfoglio .box-container .box img{
-    height: 80%;
-    width: 80%;
+    height: 40%;
+    width: 40%;
     object-fit:cover;
 }
 .portfoglio .box-container .box:hover img{

@@ -272,16 +272,16 @@ header .navbar ul li a:hover{
     width: 100%;
 }
 .portfoglio .box-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 2%;
     gap: 5px;
-    grid-auto-rows: minmax(10px, auto);
-    /* display: flex;
+    grid-auto-rows: minmax(100px, auto); */
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem 0; */
+    padding: 2rem 0;
 }
 .portfolio .box-container .box{
    

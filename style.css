@@ -319,7 +319,7 @@ header .navbar ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 .contact .row .content{
     flex :1 1 30rem;
@@ -335,7 +335,7 @@ header .navbar ul li a:hover{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background: #333;
+    background: rgb(69, 68, 68);
     color: #fff;
     text-transform: none;
     font-size: 1.7rem;
@@ -343,10 +343,13 @@ header .navbar ul li a:hover{
 }
 .contact .row form .box::placeholder{
     text-transform: capitalize;
+    color: #eee;
+    box-shadow: 4px 4px 2px #d79084;
 }
 .contact .row  form .message{
     height: 15rem;
-    resize:none
+    resize:none;
+    box-shadow: 6px 6px 6px cornsilk;
 }
 .contact .row .content .title{
     color:#fff;
@@ -357,17 +360,14 @@ header .navbar ul li a:hover{
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    color:#eee;
+    background-color: #a49ea4;
     padding:1rem 0;
+    box-shadow: 6px 6px 6px cornsilk;
 }
 .contact .row .content .info h3 i{
-   
     padding-right: 2rem;
     color: rgb(115, 92, 228);
-    
 }
-
-
 
 
 /*--------- media queries --------*/

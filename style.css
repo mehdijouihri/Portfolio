@@ -381,7 +381,7 @@ header .navbar ul li a:hover{
 
 a {
   display: inline-block;
-  color: black;
+  color: rgb(92, 154, 245);
   text-decoration: none;
   margin: 15px 4px;
   position: relative;
@@ -396,11 +396,7 @@ a:hover {
   opacity: 0.9;
   text-shadow: 2px 3px 5px #ffe625;
   top: -3px;
-}
-   
-}
-
-    
+}    
 /*--------- media queries --------*/
 
 

@@ -31,4 +31,33 @@ const swiper = new Swiper(".swiper", {
       el: ".swiper-scrollbar"
     }
   });
-  
+  /* java animation folio -----*/
+  $(function() {
+    $( ".portfolio li" ).draggable();
+    $( ".portfolio li" ).on( "dragstart", function( event, ui ) {
+      $(this).addClass("active-drag");
+    } );
+  });
+
+    // animation box education
+
+    const boxSpinning = [
+      { transform: 'rotate(0) scale(1)' },
+      { transform: 'rotate(180deg) scale(0)' }
+    ];
+
+    const boxTiming = {
+      duration: 2200,
+      iterations: 1,
+    }
+    
+    const box = document.querySelector(".box-container .box");
+    
+    function anim(e){
+      if(e.target !== e.currentTarget){
+        box.animate(boxSpinning,boxTiming);
+      }
+      e.stopPropagation();
+    }
+    
+      box.addEventListener('click',anim, false);

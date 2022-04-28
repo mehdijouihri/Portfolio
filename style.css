@@ -11,7 +11,7 @@ text-decoration:none;
 }
 *::selector{
     background:var(--couleur);
-    color:#333;
+    color:rgb(97, 91, 91);
 }
 html{
     font-size:62.5%;
@@ -29,7 +29,7 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb
 
 {
-    width:var(--couleur);
+    width:var(--couleur); 
 }
 
 body{
@@ -128,7 +128,7 @@ header .navbar ul li a:hover{
     position: fixed;
     top:2rem;
     right: 2rem;
-    background: #333;
+    background: rgb(228, 221, 221);
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -276,15 +276,9 @@ header .navbar ul li a:hover{
     background:rgb(36, 15, 223);
 }
 .education .box .container{
-    
     width: 100%;
 }
 .portfoglio .box-container{
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 2%;
-    gap: 5px;
-    grid-auto-rows: minmax(100px, auto); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -438,8 +432,46 @@ width: 100vw;
 margin:0 3rem;
 }
 }
-
-
+/* ------------ dark mode------------ */
+.toggle {
+    position: fixed;
+    right: 5%;
+    top: 2%;
+}
+.checkbox {
+    display: none;
+}
+.label {
+    height: 26px;
+    width: 50px;
+    background: rgb(249, 245, 245);
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    transform: scale(1.2);
+    box-shadow: 2px 1px 1px #333;
+}
+.label .ball {
+    background: rgb(7, 7, 7);
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: _1px;
+    left: 4px;
+    transform: translateX(0px);
+    transition: transform 0.4s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+.checkbox:checked + .label .ball {
+    transform: translateX(29px);
+}
+.fa-moon {
+    color: #333;
+}
 .swiper {
     width: 100%;
   }
@@ -465,3 +497,27 @@ margin:0 3rem;
     transition: all linear 0.3s;
   }
   
+  .dark {
+    background: rgb(169, 168, 168);
+}
+.dark article {
+    background: #333;
+    color: white;
+}
+.dark header {
+    color: white;
+}
+.dark .label {
+    box-shadow: 2px 1px 1px #333;
+    background: rgb(18, 18, 18);
+}
+.dark .ball {
+    background: rgb(254, 254, 254);
+}
+.dark nav {
+    background-color: rgb(244, 241, 237);
+}
+.dark nav p 
+{
+    color: rgb(15, 14, 14);
+}

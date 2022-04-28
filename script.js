@@ -60,3 +60,11 @@ const swiper = new Swiper(".swiper", {
       e.stopPropagation();
     }
     box.forEach(test => console.log(test.id));
+
+    /* --------mode nuit -----------*/
+    const darkMode = document.getElementById('dark-mode');
+
+darkMode.addEventListener('change', () => {
+  document.body.classList.toggle('dark');
+});
+  

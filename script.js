@@ -51,7 +51,7 @@ const swiper = new Swiper(".swiper", {
       iterations: 1,
     }
     
-    const box = document.querySelector(".box-container .box");
+    const box = document.querySelectorAll(".box-container .box");
     
     function anim(e){
       if(e.target !== e.currentTarget){
@@ -59,5 +59,4 @@ const swiper = new Swiper(".swiper", {
       }
       e.stopPropagation();
     }
-    
-      box.addEventListener('click',anim, false);
+    box.forEach(test => console.log(test.id));

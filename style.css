@@ -198,6 +198,7 @@ header .navbar ul li a:hover{
 }
 
 .apropos .row .counter .box{
+    box-shadow: 6px 6px 6px cornsilk;
     width: 15rem;
     background: #222;
     text-align: center;
@@ -219,7 +220,6 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container{
-   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -228,10 +228,11 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
 }
 .education .box-container .box{
+    box-shadow: 6px 6px 6px cornsilk;
     width: 27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid #fff;
+    border-left: .2rem solid rgb(0, 8, 237);
     border-right: .2rem solid #fff;
     position:relative;
     padding: .5rem;
@@ -300,19 +301,16 @@ header .navbar ul li a:hover{
     cursor: pointer;
     
 }
-
 .portfoglio .box-container .box img{
+    box-shadow: 6px 6px 6px cornsilk;
     margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     max-width: 120px;
-    gap: 20px;
-    /* height: 20%;
-    width: 20%;
-    object-fit:cover; */
+    height: 160%;
+    width: 60%;
+    object-fit:cover;
 }
 .portfoglio .box-container .box:hover img{
-    transform: scale(1.2);
+    transform: scale(4);
     gap:10%;
 }
 .contact .row{
@@ -334,6 +332,7 @@ header .navbar ul li a:hover{
 }
 
 .contact .row form .box{
+
     padding:1.5rem;
     margin:1rem 0;
     background: rgb(159, 157, 157);

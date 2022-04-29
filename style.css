@@ -154,8 +154,18 @@ header .navbar ul li a:hover{
 }
 
 .acceuil h1 span{
-  
+    font-style: oblique;
     color:var(--couleur);
+    color: rgb(252, 8, 8);
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
 }
 
 .acceuil p{
@@ -435,7 +445,7 @@ margin:0 3rem;
 /* ------------ dark mode------------ */
 .toggle {
     position: fixed;
-    right: 5%;
+    left: 20%;
     top: 2%;
 }
 .checkbox {
@@ -498,14 +508,14 @@ margin:0 3rem;
   }
   
   .dark {
-    background: rgb(169, 168, 168);
+    background:#eee;
 }
 .dark article {
     background: #333;
     color: white;
 }
 .dark header {
-    color: white;
+    color: rgb(103, 94, 94);
 }
 .dark .label {
     box-shadow: 2px 1px 1px #333;
@@ -520,4 +530,15 @@ margin:0 3rem;
 .dark nav p 
 {
     color: rgb(15, 14, 14);
+}
+
+.dark .acceuil h3{
+    font-size: 2rem;
+    color:#333;
+    padding:1rem 0;
+}
+.dark .acceuil p{
+    font-size: 2rem;
+    color:#333;
+    padding:1rem 0;
 }

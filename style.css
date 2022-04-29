@@ -95,6 +95,12 @@ header .user img{
     object-fit: cover;
     margin-bottom: 1rem;
     border:.7rem solid var(--couleur);
+    border-radius: 50% 20% / 10% 40%;
+}
+header .lang{
+    display:grid;
+    grid-template-columns: 1;
+    color:#eee;
 }
 header .user .name{
     font-size: 3.5rem;
@@ -442,6 +448,7 @@ width: 100vw;
 margin:0 3rem;
 }
 }
+
 /* ------------ dark mode------------ */
 .toggle {
     position: fixed;
@@ -480,7 +487,10 @@ margin:0 3rem;
     transform: translateX(29px);
 }
 .fa-moon {
-    color: #333;
+    color:yellow
+}
+.fa-sun {
+    color:orange
 }
 .swiper {
     width: 100%;
@@ -538,6 +548,11 @@ margin:0 3rem;
     padding:1rem 0;
 }
 .dark .acceuil p{
+    font-size: 2rem;
+    color:#333;
+    padding:1rem 0;
+}
+.dark .acceuil h1{
     font-size: 2rem;
     color:#333;
     padding:1rem 0;

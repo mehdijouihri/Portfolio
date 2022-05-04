@@ -67,4 +67,7 @@ const swiper = new Swiper(".swiper", {
 darkMode.addEventListener('change', () => {
   document.body.classList.toggle('dark');
 });
+
+ /* --------langues-----------*/
+ 
   

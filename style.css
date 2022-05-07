@@ -51,6 +51,7 @@ section {
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
+    box-shadow : 5px 10px 0.5em 0.5em orange;
 }
 
 .btn i{
@@ -60,6 +61,7 @@ section {
 
 .btn:hover{
     background: var(--couleur);
+    
 }
 
 .heading{
@@ -89,13 +91,14 @@ header{
     text-align: center;
 }
 header .user img{
-    height: 17rem;
-    width: 17rem;
+    height: 30rem;
+    width: 30rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
     border:.7rem solid var(--couleur);
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 10%;
+    box-shadow : 5px 10px 0.5em 0.5em rgb(90, 47, 220);
 }
 header .lang{
     display:grid;

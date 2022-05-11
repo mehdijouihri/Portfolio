@@ -294,9 +294,14 @@ header .navbar ul li a:hover{
     color:rgb(255, 255, 255);
     background:rgb(36, 15, 223);
 }
-.education .box .container{
+.education .box #one{
+    transition: all 2s;
     width: 100%;
 }
+.education .box #one:hover{
+    transform: rotate(360deg) scale(3);
+}
+
 .portfoglio .box-container{
     display: flex;
     align-items: center;

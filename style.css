@@ -51,12 +51,12 @@ section {
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
-    box-shadow : 5px 10px 0.5em 0.5em orange;
+    box-shadow : 2px 2px 0.5em 0.5em orange;
 }
 
 .btn i{
     padding: 0 .5rem;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .btn:hover{

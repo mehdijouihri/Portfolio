@@ -219,12 +219,12 @@ header .navbar ul li a:hover{
 
 .apropos .row .counter .box{
     box-shadow: 6px 6px 6px cornsilk;
-    width: 15rem;
+    width: 35rem;
     background: #222;
     text-align: center;
     padding:2rem;
     margin: 2rem;
-    
+
 }
 .apropos .row .counter .box span{
     font-size: 2rem;
@@ -237,7 +237,7 @@ header .navbar ul li a:hover{
 .apropos .row .counter .box p{
     font-size: 1.5rem;
     color:#fff;
-    text-align:left;
+    text-align:center;
 }
 
 .education .box-container{
@@ -330,7 +330,7 @@ header .navbar ul li a:hover{
     object-fit:cover;
 }
 .portfoglio .box-container .box:hover img{
-    transform: scale(4);
+    transform: scale(6);
     gap:10%;
 }
 .contact .row{
@@ -566,4 +566,14 @@ margin:0 3rem;
     font-size: 2rem;
     color:#333;
     padding:1rem 0;
+}
+.contact .row form .box{
+
+padding:1.5rem;
+margin:1rem 0;
+background: rgb(46, 40, 40);
+color: #fff;
+text-transform: none;
+font-size: 1.7rem;
+width: 100%;
 }

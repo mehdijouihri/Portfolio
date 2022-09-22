@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,300;1,400&family=Poppins:wght@500&display=swap');
 
 :root {
-    --couleur:rgb(255, 123, 0);     
+    --couleur:orange;     
 }
 * {
 font-family: 'Nunito', sans-serif;
@@ -13,6 +13,7 @@ text-decoration:none;
     background:var(--couleur);
     color:rgb(97, 91, 91);
 }
+
 html{
     font-size:62.5%;
     overflow-x: hidden;
@@ -52,7 +53,9 @@ section {
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
-    box-shadow : 2px 2px 0.5em 0.5em orange;
+    box-shadow : 1px 0.5em 0.5em rgb(200, 199, 195);
+    border: 2mm ridge rgba(255, 171, 76, 0.6);
+
 }
 
 .btn i{
@@ -61,7 +64,7 @@ section {
 }
 
 .btn:hover{
-    background: var(--couleur);
+    background: blue;
     
 }
 
@@ -99,7 +102,7 @@ header .user img{
     margin-bottom: 1rem;
     border:.7rem solid var(--couleur);
     border-radius: 10%;
-    box-shadow : 5px 10px 0.5em 0.5em rgb(90, 47, 220);
+    box-shadow : 5px 2px 0.5em 0.5em rgb(225, 226, 163);
 }
 header .lang{
     display:grid;
@@ -126,10 +129,11 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background-color: #333;
+    background-color: #594444;
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
+    border: 2mm ridge rgba(255, 171, 76, 0.6);
 }
 header .navbar ul li a:hover{
     background: var(--couleur);
@@ -219,12 +223,13 @@ header .navbar ul li a:hover{
 }
 
 .apropos .row .counter .box{
-    box-shadow: 6px 6px 6px cornsilk;
+    box-shadow: 6px 6px 6px rgb(108, 199, 232);
     width: 33rem;
     background: #222;
     text-align: center;
     padding:2rem;
     margin: 2rem;
+    border-radius: 9px;
 
 }
 .apropos .row .counter .box span{
@@ -323,7 +328,6 @@ header .navbar ul li a:hover{
     
 }
 .portfoglio .box-container .box img{
-    box-shadow: 6px 6px 6px cornsilk;
     margin: 20px auto;
     max-width: 200px;
     height: 100%;
@@ -331,7 +335,7 @@ header .navbar ul li a:hover{
     object-fit:cover;
 }
 .portfoglio .box-container .box:hover img{
-    transform: scale(6);
+    transform: scale(2);
     gap:10%;
 }
 .contact .row{

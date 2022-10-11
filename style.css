@@ -211,13 +211,14 @@ header .navbar ul li a:hover{
 }
 
 .apropos .row .info h3{
-  
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     color: var(--couleur);
     padding: 1rem 0;
     font-weight: normal;
 }
 .apropos .row .info h3 span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #eee;
     padding:0 .5rem;
 }

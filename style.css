@@ -101,7 +101,7 @@ header .user img{
     object-fit: cover;
     margin-bottom: 1rem;
     border:.7rem solid var(--couleur);
-    border-radius: 10%;
+    border-radius: 50%;
     box-shadow : 5px 2px 0.5em 0.5em rgb(225, 226, 163);
 }
 header .lang{

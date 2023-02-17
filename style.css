@@ -96,8 +96,9 @@ header{
     text-align: center;
 }
 header .user img{
-    height: 30rem;
-    width: 30rem;
+    margin-top: 10%;
+    height: 20rem;
+    width: 20rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
@@ -469,7 +470,7 @@ margin:0 3rem;
 /* ------------ dark mode------------ */
 .toggle {
     position: fixed;
-    left: 20%;
+    left: 30%;
     top: 2%;
 }
 .checkbox {
@@ -538,7 +539,7 @@ margin:0 3rem;
     background:#eee;
 }
 .dark article {
-    background: #333;
+    background: rgb(168, 163, 163);
     color: white;
 }
 .dark header {

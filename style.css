@@ -12,7 +12,7 @@ text-decoration:none;
 }
 *::selector{
     background:var(--couleur);
-    color:rgb(97, 91, 91);
+    color:rgb(238, 210, 210);
 }
 
 html{
@@ -131,11 +131,11 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background-color: #594444;
+    background-color: #9e9696;
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
-    border: 2mm ridge rgba(255, 171, 76, 0.6);
+    border: 1mm ridge rgba(255, 171, 76, 0.6);
 }
 header .navbar ul li a:hover{
     background: var(--couleur);

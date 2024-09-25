@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,300;1,400&family=Poppins:wght@500&display=swap');
 
 :root {
-    --couleur:orange;     
+    --couleur:rgb(0, 170, 255);     
 }
 
 * {
@@ -12,7 +12,7 @@ text-decoration:none;
 }
 *::selector{
     background:var(--couleur);
-    color:rgb(238, 210, 210);
+    color:rgb(26, 247, 247);
 }
 
 html{
@@ -55,7 +55,7 @@ section {
     font-size: 2rem;
     border-radius: 5rem;
     box-shadow : 1px 0.5em 0.5em rgb(200, 199, 195);
-    border: 2mm ridge rgba(255, 171, 76, 0.6);
+    border: 2mm ridge rgba(239, 11, 11, 0.6);
 
 }
 
@@ -135,7 +135,7 @@ header .navbar ul li a {
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
-    border: 1mm ridge rgba(255, 171, 76, 0.6);
+    border: 1mm ridge rgba(4, 2, 29, 0.6);
 }
 header .navbar ul li a:hover{
     background: var(--couleur);
